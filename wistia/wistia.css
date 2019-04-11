@@ -1,0 +1,134 @@
+html{
+	font-family: 'Heebo', sans-serif;
+}
+header{
+	display:flex;
+	justify-content:center;
+}
+.headers{
+	width:10vw;
+	text-align: center;	
+}
+#menu{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+#signup, #signin{
+	margin:1.5vw;
+	margin-top:4.5vw;
+	margin-bottom:4.5vw;
+}
+.a{
+	text-decoration:none;
+	color:black;
+	margin:3vw;
+}
+.main-elts{
+	height:350px;
+	width:500px;
+}
+#gif{
+	height:835px;
+	background-image: url("https://files.slack.com/files-pri/TD962UG4B-FELQEBU76/gif.gif");
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+	width:10%;
+	margin:5vw;
+	background-color: rgb(6, 145, 242);
+	border-width: 1px;
+	height: 39px;
+	border: 2px solid transparent;
+    border-radius: 5px;
+    bottom: 0;
+	color:white;
+}
+span{
+	color:white;
+}
+#main-section{
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: left;
+}
+i{
+	font-size: 3vw;
+	margin: 1.5vw;
+}
+h1, .p{
+	margin-bottom: 2vw;
+	margin-left: 3vw;
+	margin-right:3vw;
+	text-align: justify;
+}
+.p{
+	text-align: center;
+	font-size: 0.95vw;
+	margin:2vw;
+}
+#customers{
+	display:flex;
+	justify-content: space-around;
+}
+.customer-div{
+	height: 10vw;
+	width:10vw;
+	margin:5vw;
+}
+#features{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+.feature_img{
+	width:21vw;
+	height:17vw;
+	margin:3vw;
+}
+h3{
+	font-size:2vw;
+}
+#terms{
+	line-height: 5vw;
+	text-align:center;
+	height:5vw;
+	font-size: 1vw;
+	font-weight: bold;
+}
+#real-footer{
+	display:flex;
+	justify-content:center;
+	font-size:0.95vw;
+	background-color:#2A2D35;
+}
+ul{
+	list-style:none;
+}
+.lists{
+	padding-top:4.5vw;
+	padding-bottom:4.5vw;
+	width:17%;
+	background-color:#2A2D35;
+	color:white;
+}
+#asside-footer{
+	color:white;
+	text-align:center;
+	margin:2vw;
+	width:32%;
+	 height:100%;
+}
+.lin{
+	color:#3AB16A;
+}
+#asside-pg{
+	margin-top:4.5vw;
+}
