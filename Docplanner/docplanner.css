@@ -1,0 +1,127 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	color:#ababab;
+}
+a{
+	text-decoration:none;
+	margin:0.5vw;
+}
+.active{
+	color: #00b39b;
+}
+header{
+	display:flex;
+	justify-content: space-around;
+	padding-top:2vw;
+	padding-bottom:2vw;
+	position:fixed;
+	background-color:white;
+}
+.logo-docplanner{
+	width: 11%;
+	height:11%;
+	margin-top:-0.5%;
+}
+.introduction{
+	text-align:center;
+	padding-top:10vw;
+	padding-bottom: 3vw;
+}
+.introduction-text{
+	display:flex;
+}
+.p-text1{
+	margin-left:15vw;
+	margin-right:0.5vw;
+	text-align:left;
+}
+.p-text2{
+	margin-right:15vw;
+	margin-left:0.5vw;
+	text-align:left;
+}
+.services{
+	display:flex;
+	height: 20vw;
+}
+.service-card_patient{
+	margin-left:15vw;
+	margin-right:0.5vw;
+	text-align:left;
+	background: #00b39b;
+	width:40vw;
+	border-radius: 1vw;
+}
+.service-card_doctors{
+	margin-right:15vw;
+	margin-left:0.5vw;
+	text-align:left;
+	background: #3d83df;
+	width:40vw;
+	border-radius: 1vw;
+}
+.service-card-image{
+	height:50%;
+	width:50%;
+}
+#img1{
+	margin-left:5vw;
+}
+#img2{
+	margin-left:16.5vw;
+}
+.service-card-for{
+	color: hsla(0,0%,100%,.7);
+	margin:1vw;
+}
+.service-card-title{
+	color: white;
+	margin:1vw;
+}
+.service-card-content{
+	display:flex;
+}
+select{
+	width: 90%;
+    background: white;
+    border: 0;
+    border-radius: 0;
+    padding: 0 3.5em 0 1.5em;
+    height: 3vw;
+	margin-left:1vw;
+}
+.products{
+	font-weight:bold;
+	color:#ababab;
+	width:17%;
+	padding:1vw;
+}
+.products:hover{
+	color:#00b39b;
+}
+#title-product{
+	color:#00b39b;
+	width:32%;
+	margin:1vw;
+}
+#products{
+	display :flex;
+	margin-left: 15vw;
+	margin-right:15vw;
+}
+#ad-text{
+	margin:2vw 15vw;
+	padding-left:15vw;
+	padding-right:15vw;
+}
+footer{
+	margin-left:15vw;
+	margin-right:15vw;
+	text-align:center;
+}
+.countries{
+	color: #3d83df;
+}
+.footer{
+	font-size:0.8vw;
+}
